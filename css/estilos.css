@@ -47,7 +47,7 @@ body,h1{
 	/*In. final*/
 	100%{
 		opacity:1;
-		color:tomato;
+		color:rgba(75,83,194,0.54);
 		transform: translateY(0);
 	}
 }
