@@ -82,7 +82,8 @@ body,h1{
    -webkit-box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
    -moz-box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
         }
-    }
+.footer img{ 
+width: 8%;}
 
 
 .justificado {
