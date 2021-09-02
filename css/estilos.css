@@ -59,7 +59,25 @@ body,h1{
         width:68%; 
         float:left; 
 		border-radius: 20px;
-     }
+ 		
+	animation-name:  anim-opacidad2;
+	animation-duration: 1s;
+	animation-delay: 0s;
+        }
+@keyframes anim-opacidad2{
+	/*Instancia inicial*/
+	0%{
+		opacity: 0.2;
+		color:white;
+		transform: translateX(-200px);
+	}
+	/*In. final*/
+	100%{
+		opacity:1;
+		color:rgba(75,83,194,0.54);
+		transform: translateX(0);
+	}
+}
   
    
      .noticia{
@@ -86,7 +104,30 @@ body,h1{
 			box-shadow: 7px 7px 7px 7px  rgba(75,83,194,0.54);
    -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.47));
    -moz-box-shadow: 7px 7px 7px  rgba(0,0,0,0.47);
-    }
+		
+	animation-name:  anim-opacidad3;
+	animation-duration: 1s;
+	animation-delay: 0s;
+        }
+@keyframes anim-opacidad3{
+	/*Instancia inicial*/
+	0%{
+		opacity: 0.2;
+		color:white;
+		transform: translateX(200px);
+	}
+	/*In. final*/
+	100%{
+		opacity:1;
+		color:rgba(75,83,194,0.54);
+		transform: translateX(0);
+	}
+}
+
+
+
+
+
 .sidebar img{
 	-webkit-filter: grayscale(5);
 }
