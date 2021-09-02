@@ -1,0 +1,94 @@
+html{
+font-family: 'Lobster Two', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+body,h1{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+#contenedor{
+    width:85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+	background-image:url("../img/fondo.png");
+}
+
+    .header{
+        background-color:black;
+        text-align: center;
+        color: white;
+        padding: 16px;
+        font-size: 18px;
+        margin-bottom: 10px;
+		border-radius: 20px;
+	box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
+   -webkit-box-shadow: 7px 7px 7px rgba(75,83,194,0.54));
+   -moz-box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
+        }
+
+    .principal{
+        background-color:rgba(243,225,225,0.49) ;
+        padding: 15px;
+        width:68%; 
+        float:left; 
+		border-radius: 20px;
+     }
+  
+   
+     .noticia{
+        background-color:rgba(244,244,244,0.62) ;
+        padding:10px;
+		column-count:2;
+	    column-gap: 2em;
+	    column-rule: 1px solid black;
+	    column-width: 140px;
+		border-radius: 20px;
+     }
+     .noticia figure img{
+        width:100%
+     }
+
+ 	.noticia h2{font-weight: 700;
+			font-weight: bolder;}
+
+    .sidebar{ 
+        background-color: rgba(243,225,225,0.49) ;
+        height: auto;
+        float:right; 
+		border-radius: 20px;
+			box-shadow: 7px 7px 7px 7px  rgba(75,83,194,0.54);
+   -webkit-box-shadow: 7px 7px 7px rgba(0,0,0,0.47));
+   -moz-box-shadow: 7px 7px 7px  rgba(0,0,0,0.47);
+    }
+.sidebar img{
+	-webkit-filter: grayscale(5);
+}
+    .footer{
+		margin-top: 10px; 
+        clear:both; /*para cortar con la incidencia de los float, debemos limpiar con clear*/
+        background-color: #000000;
+        text-align: center;
+        color:white;
+        padding: 15px;
+		border-radius: 20px;
+		box-shadow: 7px 7px 7px 7px rgba(75,83,194,0.54);
+   -webkit-box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
+   -moz-box-shadow: 7px 7px 7px rgba(75,83,194,0.54);
+        }
+    }
+
+
+.justificado {
+	text-align: justify;
+}
+
+    .limpiar{
+        clear:both;
+    }
