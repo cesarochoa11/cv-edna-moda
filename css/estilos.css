@@ -108,6 +108,7 @@ body,h1{
 	animation-name:  anim-opacidad3;
 	animation-duration: 1s;
 	animation-delay: 0s;
+		margin-bottom: 15px;
         }
 @keyframes anim-opacidad3{
 	/*Instancia inicial*/
@@ -239,6 +240,7 @@ width: 8%;}
 	.header img{width: 100%;}
 	.ednaipad {display: none;}
 	.banneripad {display: none;}
+	.derecha img{width: 19%;}
 	
 	}
 
