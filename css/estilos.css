@@ -158,30 +158,36 @@ width: 8%;}
 
 
 /* PC grande */
-@media (min-width:18001px) and (max-width: 2500px){
+@media (min-width:1400px) {
 .ednaipad{display: none;}
 .ednamobile{display: none;}
 .bannermobile{display: none;}
 .banneripad{display: none;}
+	.header img{width: 50%;}
 .izquierda {float: left; padding-left: 270px;}
+
+
 } 
 
 
 
 
 /* PC */
-@media (min-width:1269px) and (max-width: 1800px){
+@media (min-width: 1200px) and (max-width: 1399px){
 .ednaipad{display: none;}
 .ednamobile{display: none;}
 .bannermobile{display: none;}
 .banneripad{display: none;}
 .izquierda {float: left; padding-left: 270px;}
+		.sidebar {width: 31%;}
+	.sidebar img{width: 99%;}
+	
 
 } 
 
 
 /* TABLET */
-@media screen and (min-width: 561px) and (max-width: 1268px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
 	.principal{width: 100%; }
 	.ednamobile {display: none;}
 	.bannermobile {display: none;}
@@ -206,7 +212,7 @@ width: 8%;}
 
 
 /* MOBILE */
-@media (min-width:0px) and (max-width: 560px){
+@media (min-width:0px) and (max-width: 767px){
 	.principal{width: 100%; }
 	
 	  .noticia{
