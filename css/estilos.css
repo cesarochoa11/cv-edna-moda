@@ -324,6 +324,9 @@ width: 8%;}
 	-webkit-filter: grayscale(20);
 	
 	}
+	.imgder {width: 100%;}
+	.imgizq {width: 100%;}
+	.top img{width: 20%;float: right;}
 	.ednamobile {
 		width: 100%;
 		display: inline-block;
